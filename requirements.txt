@@ -1,0 +1,19 @@
+# Core data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Climate data (optional)
+xarray>=2023.0.0
+netCDF4>=1.6.0
+
+# Statistics
+scipy>=1.10.0
+statsmodels>=0.14.0
+

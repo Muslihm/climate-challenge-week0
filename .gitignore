@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Data files (if large)
+*.csv
+*.nc
+*.hdf
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files (keep structure but not files)
+data/raw/*
+data/processed/*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
