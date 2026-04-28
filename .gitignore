@@ -1,4 +1,14 @@
-# Python
+# Data files
+data/
+*.csv
+*.hdf
+*.nc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Python cache
 __pycache__/
 *.py[cod]
 *.so
@@ -8,26 +18,19 @@ __pycache__/
 venv/
 env/
 ENV/
-
-# Data files (if large)
-*.csv
-*.nc
-*.hdf
+.venv
 
 # IDE files
 .vscode/
 .idea/
 *.swp
-
-# OS files
 .DS_Store
-Thumbs.db
 
-# Output files (keep structure but not files)
-data/raw/*
-data/processed/*
+# Environment variables
+.env
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+data/
